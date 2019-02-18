@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var jqconsole = $("#console").jqconsole("", "kevin> ");
-  jqconsole.Write(prompts['unformatted_intro'] + '\n\n', 'jqconsole-output', false);
+  jqconsole.Write("<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>', 'jqconsole-output', false);
 
 	var process = (input) => {
 		var parsed = input.split(" ");

@@ -21,6 +21,10 @@ span {
   max-width: 100vw;
 }
 
+span.wrapper {
+  white-space: pre-line;
+}
+
 a {
   transition: all 0.2s ease-in-out;
   text-decoration: none;

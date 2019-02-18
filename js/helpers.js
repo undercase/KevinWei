@@ -11,7 +11,7 @@ function buildSpecialText(text) {
 // Create a lambda function that returns the data for a command from prompts
 function buildLambda(command) {
 	return function() {
-    return format(command)
+    return "<span class='wrapper'>" + format(command) + "</span>";
   };
 }
 
