@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	var jqconsole = $("#console").jqconsole(prompts["intro"], "kevin> ");
+	var jqconsole = $("#console").jqconsole("", "kevin> ");
+  jqconsole.Write(prompts['unformatted_intro'] + '\n\n', 'jqconsole-output', false);
 
 	var process = (input) => {
 		var parsed = input.split(" ");
@@ -9,7 +10,9 @@ $(document).ready(function() {
 			[["links", "info"], buildLambda("links")],
 			[["contact"], buildLambda("contact")],
 			[["clear", "cls"], function() { jqconsole.Clear(); return "\r"; }],
-      [["cats", "cat"], buildLambda("cats")]
+      [["cats", "cat"], function() {
+        return '\n' + prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)] + '\n\n';
+      }]
 		];
 		var response = null;
 		commands.forEach(function(key, index, commands) {
@@ -35,7 +38,7 @@ $(document).ready(function() {
 			});
 			var results = search(commands_list, parsed[0]);
 			if (results.length > 0) {
-				response = "\nThat command doesn\"t exist. Did you mean ";
+				response = "\nThat command doesn't exist. Did you mean ";
 				results.forEach(function(result, index) {
 					if (index === results.length - 1 && results.length == 2) {
 						response = response.substring(0, response.length - 2);

@@ -39,7 +39,7 @@ function formatList(list) {
   // Loop through each piece of data and append a formatted version of it
   // to the response string
 	for (var listItemIndex=0; listItemIndex<list.length; listItemIndex++) {
-		response += "\t• ";
+		response += "\t";
 		var formattedItem = formatObject(list[listItemIndex]);
 		response += formattedItem + "\n";
 	}
@@ -56,7 +56,7 @@ function formatObject(obj) {
 			dataItems.push(obj[property]);
 		}
 	}
-	return dataItems.join(" | ");
+	return dataItems.join(" - ");
 };
 
 // Use fuse to find similar commands to the one entered

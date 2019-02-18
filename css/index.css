@@ -1,0 +1,92 @@
+html, body {
+  background-color: #282828;
+  color: #fff;
+
+  width: 100%;
+  max-width: 100vw;
+  font-size: 16px;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+#console {
+  width: 100%;
+  height: 100%;
+
+  border: none;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+span {
+  max-width: 100vw;
+}
+
+a {
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+/* The inner console element. */
+
+.jqconsole {
+    padding: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+/* The cursor. */
+
+.jqconsole-cursor {
+    color: #fff;
+    /*position: relative !important;*/
+    opacity: 0.5;
+    background-color: #fff;
+}
+
+/* The cursor color when the console loses focus. */
+
+.jqconsole-blurred .jqconsole-cursor {
+    color: #fff;
+    background-color: #fff;
+}
+
+/* The current prompt text color */
+
+.jqconsole-prompt {
+    color: #fff;
+}
+
+/* The command history */
+
+.jqconsole-old-prompt {
+    color: #fff;
+    font-weight: normal;
+}
+
+/* The text color when in input mode. */
+
+.jqconsole-input {
+    color: #fff;
+}
+
+/* Previously entered input. */
+
+.jqconsole-old-input {
+    color: #adabab;
+    font-weight: normal;
+}
+
+/* The text color of the output. */
+
+.jqconsole-output {
+    color: #adabab;
+}
+
+.special, a {
+    color: #66FF66;
+}
