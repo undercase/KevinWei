@@ -6,10 +6,11 @@ $(document).ready(function() {
 		var parsed = input.split(" ");
 		var commands = [
 			[["help", "?", "ls"], buildLambda("help")],
-			[["hello", "kevin", "hi", "mission", "description", "why", "intro"], buildLambda("intro")],
-			[["links", "info"], buildLambda("links")],
+			[["hello", "kevin", "hi", "mission", "description", "why", "intro", "info"], buildLambda("intro")],
+			[["social", "links"], buildLambda("social")],
+      [["portfolio", "projects"], buildLambda("portfolio")],
 			[["contact"], buildLambda("contact")],
-			[["clear", "cls"], function() { jqconsole.Clear(); return "\r"; }],
+			[["clear", "cls"], function() { jqconsole.Clear(); return "<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>'; }],
       [["cats", "cat"], function() {
         return '\n' + prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)] + '\n\n';
       }]
@@ -61,7 +62,7 @@ $(document).ready(function() {
 
 	var processQuery = (input) => {
 		if (input) {
-			jqconsole.Write(process(input),"jqconsole-output",false);
+			jqconsole.Write(process(input.toLowerCase().trim()),"jqconsole-output",false);
 		} else {
 			jqconsole.Write("\n Here is a list of commands:\n" + format("help"), "jqconsole-output", false);
 		}

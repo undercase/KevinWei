@@ -28,21 +28,28 @@ var help = [{
   name: buildSpecialText("hello"),
   description: "Display introduction message"
 }, {
-  name: buildSpecialText("links"),
-  description: "Displays links to social media, projects, and more"
+  name: buildSpecialText("social"),
+  description: "Displays links to social media"
+}, {
+  name: buildSpecialText("portfolio"),
+  description: "Displays links to projects, articles, and more"
 }, {
   name: buildSpecialText("contact"),
   description: "Display my contact info"
 }, {
   name: buildSpecialText("cats"),
   description: "Display ascii art of cats ;)"
+}, {
+  name: buildSpecialText("cls"),
+  description: "Clear the screen"
 }];
 
-var links = `<a href="https://www.linkedin.com/in/kevinlwei/">LinkedIn</a>
+var social = `<a href="https://www.linkedin.com/in/kevinlwei/">LinkedIn</a>
 \t<a href="https://twitter.com/kevinlwei">Twitter</a>
-\t<a href="https://github.com/kevinlwei">GitHub</a>
-\t<a href="https://medium.com/@kevinwei">Medium</a>
 \t<a href="https://angel.co/kevinwei">AngelList</a>`;
+
+var portfolio = `<a href="https://github.com/kevinlwei">GitHub</a>
+\t<a href="https://medium.com/@kevinwei">Medium</a>`;
 
 var contact = `If there's a project I can help you with or if you just want to grab some #covfefe, feel free to reach out at <a href="mailto:public@kevinlwei.com">public@kevinlwei.com</a>.`;
 
@@ -110,7 +117,8 @@ var prompts = {
 	help: help,
   unformatted_intro: unformatted_intro,
   intro: intro,
-  links: links,
+  social: social,
+  portfolio: portfolio,
   contact: contact,
   cats: cats,
 	invalid: invalid
