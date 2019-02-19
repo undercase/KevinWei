@@ -38,7 +38,7 @@ var help = [{
   description: "Display my contact info"
 }, {
   name: buildSpecialText("cats"),
-  description: "Display ascii art of cats ;)"
+  description: "Display ASCII art of cats"
 }, {
   name: buildSpecialText("cls"),
   description: "Clear the screen"
