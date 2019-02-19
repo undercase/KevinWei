@@ -18,7 +18,7 @@ var intro = `I'm a <span class="special">political organizer</span> and <span cl
 \tWhen time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/">FantasyLiterature.com</a>).
 \tStudying Mathematics-Statistics & Economics at <a href="https://www.columbia.edu/">Columbia</a> (expected 2019) with some IR/politics.`;
 
-var unformatted_intro = `Hi! I'm Kevin Wei. I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> with a technical background.
+var unformatted_intro = `Hi! I'm Kevin Wei. I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> working on technology and cyber policy, national security, and innovation/growth.
 Type <span class="special">hello</span> below to learn more about me. Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
 var help = [{
@@ -49,9 +49,10 @@ var social = `<a href="https://www.linkedin.com/in/kevinlwei/">LinkedIn</a>
 \t<a href="https://angel.co/kevinwei">AngelList</a>`;
 
 var portfolio = `<a href="https://github.com/kevinlwei">GitHub</a>
-\t<a href="https://medium.com/@kevinwei">Medium</a>`;
+\t<a href="https://medium.com/@kevinwei">Medium</a>
+\t<a href="https://www.fcc.gov/ecfs/filing/10717079873938">DigitalOcean's FCC Comment Opposing Net Neutrality Repeal</a>`;
 
-var contact = `If there's a project I can help you with or if you just want to grab some #covfefe, feel free to reach out at <a href="mailto:public@kevinlwei.com">public@kevinlwei.com</a>.`;
+var contact = `Feel free to reach out at <a href="mailto:public@kevinlwei.com">public@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on`;
 
 var cats = [
 "            _,'|             _.-''``-...___..--';)\n" +
