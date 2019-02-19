@@ -55,7 +55,7 @@ $(document).ready(function() {
 				response += "?\n\n";
 				return response;
 			} else {
-				return "\nThat command doesn\"t exist. Here is a list of commands you can use:\n" + format("help");
+				return "\nThat command doesn't exist. Here is a list of commands you can use:\n" + format("help");
 			}
 		}
 	};
