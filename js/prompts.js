@@ -10,13 +10,11 @@ cats: display ascii art of cats ;)
 */
 
 var intro = `I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> with a technical background.
-\tMy main policy interests are technology and innovation, national security, globalization and global governance, cybersecurity policy, and select microeconomics topics.
-\tRight now I'm a Cyber Policy Intern at the <a href="https://www.cfr.org/">Council on Foreign Relations</a>.
+\tMy main policy interests are technology and innovation, national security, globalization and global governance, cybersecurity policy, and select microeconomics topics. Right now I'm a Cyber Policy Intern at the <a href="https://www.cfr.org/">Council on Foreign Relations</a>.
 
-\tIn the past, I was a 2019 State of the Net Fellow at the <a href="https://www.neted.org/">Internet Education Foundation</a> and a Beto Senate campaign staffer.
-\tI've also worked/interned in the Office of Nancy Pelosi, <a href="https://www.digitalocean.com/">DigitalOcean</a> (Growth & Demand Generation), the <a href="http://www.techstars.com/programs/">Techstars IoT Accelerator</a>, the <a href="https://www.georgewbushlibrary.smu.edu/">George W. Bush Presidential Library</a>, and the <a href="https://www.si.edu/">Smithsonian.</a>
+\tIn the past, I was a 2019 State of the Net Fellow at the <a href="https://www.neted.org/">Internet Education Foundation</a> and a Beto Senate campaign staffer. I've also worked/interned in the Office of Nancy Pelosi, <a href="https://www.digitalocean.com/">DigitalOcean</a> (Growth & Demand Generation), the <a href="http://www.techstars.com/programs/">Techstars IoT Accelerator</a>, the <a href="https://www.georgewbushlibrary.smu.edu/">George W. Bush Presidential Library</a>, and the <a href="https://www.si.edu/">Smithsonian.</a>
 \tWhen time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/">FantasyLiterature.com</a>).
-\tStudying Mathematics-Statistics & Economics at <a href="https://www.columbia.edu/">Columbia</a> (expected 2019) with some IR/politics.`;
+\t \tStudying Mathematics-Statistics & Economics at <a href="https://www.columbia.edu/">Columbia</a> (expected 2019) with some IR/politics.`;
 
 var unformatted_intro = `Hey there! My name is <span class="special" >Kevin Wei</span>. I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> working on technology/cyber policy, national security, and innovation/growth.
 Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
@@ -52,7 +50,9 @@ var portfolio = `<a href="https://github.com/kevinlwei">GitHub</a>
 \t<a href="https://medium.com/@kevinwei">Medium</a>
 \t<a href="https://www.fcc.gov/ecfs/filing/10717079873938">DigitalOcean's FCC Comment Opposing Net Neutrality Repeal</a>`;
 
-var contact = `Feel free to reach out at <a href="mailto:public@kevinlwei.com">public@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on`;
+var contact = `Feel free to reach out at <a href="mailto:public@kevinlwei.com">public@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on
+\t \tFor security purposes, you can find the PGP key for my email on my <a href="https://github.com/kevinlwei/keys">Github</a> (@kevinlwei/keys)
+\tKey SHA256 (verification): f9bd37ee85d50de931dd018d0dcae58f850439b46ede290b7d07a73c5be915ea`;
 
 var cats = [
 "            _,'|             _.-''``-...___..--';)\n" +
