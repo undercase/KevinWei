@@ -18,8 +18,8 @@ var intro = `I'm a <span class="special">political organizer</span> and <span cl
 \tWhen time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/">FantasyLiterature.com</a>).
 \tStudying Mathematics-Statistics & Economics at <a href="https://www.columbia.edu/">Columbia</a> (expected 2019) with some IR/politics.`;
 
-var unformatted_intro = `Hi! I'm Kevin Wei. I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> working on technology and cyber policy, national security, and innovation/growth.
-Type <span class="special">hello</span> below to learn more about me. Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
+var unformatted_intro = `Hey there! My name is Kevin Wei - I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> working on technology/cyber policy, national security, and innovation/growth.
+Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
 var help = [{
   name: buildSpecialText("help"),
