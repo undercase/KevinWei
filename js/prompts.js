@@ -52,7 +52,7 @@ var social = `<a href="https://www.linkedin.com/in/kevinlwei/">LinkedIn</a>
 
 var portfolio = `<a href="https://www.fcc.gov/ecfs/filing/10717079873938">Net Neutrality Comment</a>: here's internet infrastructure startup DigitalOcean's comment to the FCC in support of net neutrality, which I wrote back in 2017
 \t<a href="http://www.fantasyliterature.com/author-interviews/n-k-jemisin/">N.K. Jemisin Interview</a>: here's me interviewing NYT-bestselling fantasy author N.K. Jemisin about her Broken Earth trilogy
-\t<a href="https://impulse.coreatcu.com/libretaxi-an-uber-for-rural-disadvantaged-communities-657269849d31">The Story of LibreTaxi</span>: here's me writing about LibreTaxi, a non-profit ride-sharing app aimed at rural users
+\t<a href="https://impulse.coreatcu.com/libretaxi-an-uber-for-rural-disadvantaged-communities-657269849d31">The Story of LibreTaxi</a>: here's me writing about LibreTaxi, a non-profit ride-sharing app aimed at rural users
 \t<a href="https://medium.com/@kevinwei">Medium</a>: my writing, mostly for Columbia's tech- & startup-focused Core Impulse magazine
 \t<a href="https://github.com/kevinlwei">GitHub</a>: my code snippets :)
 
