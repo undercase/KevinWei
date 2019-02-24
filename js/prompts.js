@@ -9,13 +9,10 @@ cats: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> with a technical background.
-My main policy interests are technology and innovation, national security, globalization and global governance, cybersecurity policy, and select microeconomics topics. Right now I'm the Digital & Cyber Policy Intern at the <a href="https://www.cfr.org/">Council on Foreign Relations</a>.
+var intro = `I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> with a technical background. My main policy interests are technology and innovation, national security, globalization and global governance, cybersecurity policy, and select microeconomics topics. Right now I'm the Digital & Cyber Policy Intern at the <a href="https://www.cfr.org/">Council on Foreign Relations</a>.
 
 \t 
-\tIn the past, I was a 2019 State of the Net Fellow at the <a href="https://www.neted.org/">Internet Education Foundation</a> and a Beto Senate campaign staffer. I've also worked/interned in the Office of Nancy Pelosi, <a href="https://www.digitalocean.com/">DigitalOcean</a> (Growth & Demand Generation), the <a href="http://www.techstars.com/programs/">Techstars IoT Accelerator</a>, the <a href="https://www.georgewbushlibrary.smu.edu/">George W. Bush Presidential Library</a>, and the <a href="https://www.si.edu/">Smithsonian.</a> 
-When time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/">FantasyLiterature.com</a>).
-Studying Mathematics-Statistics & Economics at <a href="https://www.columbia.edu/">Columbia</a> (expected 2019) with some IR/politics.
+\tIn the past, I was a 2019 State of the Net Fellow at the <a href="https://www.neted.org/">Internet Education Foundation</a> and a Beto Senate campaign staffer. I've also worked/interned in the Office of Nancy Pelosi, <a href="https://www.digitalocean.com/">DigitalOcean</a> (Growth & Demand Generation), the <a href="http://www.techstars.com/programs/">Techstars IoT Accelerator</a>, the <a href="https://www.georgewbushlibrary.smu.edu/">George W. Bush Presidential Library</a>, and the <a href="https://www.si.edu/">Smithsonian</a>. When time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/">FantasyLiterature.com</a>). Studying Mathematics-Statistics & Economics at <a href="https://www.columbia.edu/">Columbia</a> (expected 2019) with some IR/politics.
 
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the web, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
