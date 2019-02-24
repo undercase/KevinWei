@@ -61,7 +61,7 @@ var portfolio = `<a href="https://www.fcc.gov/ecfs/filing/10717079873938">Net Ne
 
 var contact = `Feel free to reach out at <a href="mailto:public@kevinlwei.com">public@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on
 \t 
-\tMy email's public PGP key is available at <a href="https://github.com/kevinlwei/keys">Github</a> (@kevinlwei/keys)
+\tMy email's public PGP key is available from <a href="https://github.com/kevinlwei/keys">Github</a> (@kevinlwei/keys)
 \tSHA256 (key verification): f9bd37ee85d50de931dd018d0dcae58f850439b46ede290b7d07a73c5be915ea
 
 \t 
