@@ -20,7 +20,7 @@ Studying Mathematics-Statistics & Economics at <a href="https://www.columbia.edu
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the web, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
-var unformatted_intro = `Hey there! <p>&#xF44B</p> My name is <span class="special" >Kevin Wei</span>. I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> working on technology/cyber policy, national security, and innovation/growth.
+var unformatted_intro = `Hey there! My name is <span class="special" >Kevin Wei</span>. I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> working on technology/cyber policy, national security, and innovation/growth.
 Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
 var help = [{
