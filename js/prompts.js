@@ -9,9 +9,9 @@ cats: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> with a technical background. My main policy interests are economic inequality, technology regulation and innovation policy, and select microeconomics topics. Right now I'm ta Summer Associate at <a href="https://digitalocean.com">DigitalOcean</a>, where I work on education equity and diversity.
+var intro = `I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> with a technical background. My main policy interests are economic inequality, technology regulation and innovation policy, and select microeconomics topics. Right now I'm a Summer Associate at <a href="https://digitalocean.com">DigitalOcean</a>, where I work on education equity and diversity.
 \t 
-\tIn the past, I was a 2019 State of the Net Fellow at the <a href="https://www.neted.org/">Internet Education Foundation</a> and a Beto Senate campaign staffer. I've also worked/interned in the Office of Nancy Pelosi, <a href="https://www.cfr.org/">the Council of Foreign Relations</a>, <a href="https://www.digitalocean.com/">DigitalOcean</a> (Growth & Demand Generation), the <a href="http://www.techstars.com/programs/">Techstars IoT Accelerator</a>, the <a href="https://www.georgewbushlibrary.smu.edu/">George W. Bush Presidential Library</a>, and the <a href="https://www.si.edu/">Smithsonian</a>. When time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/">FantasyLiterature.com</a>). Studying Mathematics-Statistics & Economics at <a href="https://www.columbia.edu/">Columbia</a> (expected 2019) with some IR/politics.
+\tIn the past, I was a 2019 State of the Net Fellow at the <a href="https://www.neted.org/">Internet Education Foundation</a> and a Beto Senate campaign staffer. I've also worked/interned in the Office of Nancy Pelosi, the <a href="https://www.cfr.org/">Council of Foreign Relations</a>, the <a href="http://www.techstars.com/programs/">Techstars IoT Accelerator</a>, the <a href="https://www.georgewbushlibrary.smu.edu/">George W. Bush Presidential Library</a>, and the <a href="https://www.si.edu/">Smithsonian</a>. When time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/">FantasyLiterature.com</a>). Studying Mathematics-Statistics & Economics at <a href="https://www.columbia.edu/">Columbia</a> (expected 2019) with some IR/politics.
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the web, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
@@ -55,10 +55,7 @@ var portfolio = `<a href="https://www.fcc.gov/ecfs/filing/10717079873938">Net Ne
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
-var contact = `Feel free to reach out at <a href="mailto:public@kevinlwei.com">public@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on
-\t 
-\tMy email's public PGP key is available from <a href="https://github.com/kevinlwei/keys">Github</a> (@kevinlwei/keys)
-\tSHA256 (key verification): f9bd37ee85d50de931dd018d0dcae58f850439b46ede290b7d07a73c5be915ea
+var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com">hi@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
