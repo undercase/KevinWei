@@ -48,7 +48,7 @@ var social = `<a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">L
 \t Type <span class = "special">help</span> for more commands.`;
 
 var portfolio = `<a href="https://www.fcc.gov/ecfs/filing/10717079873938" target="_blank">Net Neutrality Comment</a> (2017): here's internet infrastructure startup DigitalOcean's comment to the FCC in support of net neutrality, which I wrote back in 2017
-\t<a href="https://fbnewsroomus.files.wordpress.com/2019/06/oversight-board-consultation-report-appendix.pdf" target="_blank">Facebook Global Oversight Board Comment</a> (2019): here's my personal comment to Facebook on their proposed structure for a "Supreme Court" of content moderation
+\t<a href="https://fbnewsroomus.files.wordpress.com/2019/06/oversight-board-consultation-report-appendix.pdf" target="_blank">Facebook Global Oversight Board Comment</a> (2019): here's my personal comment to Facebook on their proposed structure for a "Supreme Court" of content moderation (pgs. 36-37)
 \t<a href="http://www.fantasyliterature.com/author-interviews/n-k-jemisin/" target="_blank">N.K. Jemisin Interview</a> (2016): here's me interviewing NYT-bestselling fantasy author N.K. Jemisin about her Broken Earth trilogy
 \t<a href="https://impulse.coreatcu.com/libretaxi-an-uber-for-rural-disadvantaged-communities-657269849d31" target="_blank">The Story of LibreTaxi</a> (2017): here's me writing about LibreTaxi, a non-profit ride-sharing app aimed at rural users
 \t<a href="https://medium.com/@kevinwei" target="_blank">Medium</a>: my writing, mostly for Columbia's tech- & startup-focused Core Impulse magazine
