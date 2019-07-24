@@ -9,11 +9,13 @@ cats: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> with a technical background. My main policy interests are economic inequality, technology regulation and innovation policy, and select microeconomics topics. Right now I'm an Associate at <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>, where I work on education equity and diversity.
+var intro = `I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> with a technical background. My main policy interests are economic inequality, technology regulation and innovation policy, and select microeconomics topics. Right now I'm an Associate at <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>, where I work on education equity and diversity. Check out <a href="https://www.digitalocean.com/the-spin-up/" target="_blank">the Spin Up</a>, DigitalOcean and a16z's new program to expand computer science education to historically underrepresented communities!
 \t 
-\tIn the past, I was a 2019 State of the Net Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a> and a Beto Senate campaign staffer. I've also worked/interned in the Office of Nancy Pelosi, the <a href="https://www.cfr.org/" target="_blank">Council of Foreign Relations</a>, the <a href="http://www.techstars.com/programs/" target="_blank">Techstars IoT Accelerator</a>, the <a href="https://www.georgewbushlibrary.smu.edu/" target="_blank">George W. Bush Presidential Library</a>, and the <a href="https://www.si.edu/" target="_blank">Smithsonian</a>. When time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/" target="_blank">FantasyLiterature.com</a>). Recent graduate of Columbia, where I studied Mathematics-Statistics & Economics with some IR/politics.
+\tIn the past, I was a 2019 State of the Net Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a> and a 2018 Beto Senate campaign staffer. I've also worked/interned in the Office of Nancy Pelosi, the <a href="https://www.cfr.org/" target="_blank">Council of Foreign Relations</a>, the <a href="http://www.techstars.com/programs/" target="_blank">Techstars IoT Accelerator</a>, the <a href="https://www.georgewbushlibrary.smu.edu/" target="_blank">George W. Bush Presidential Library</a>, and the <a href="https://www.si.edu/" target="_blank">Smithsonian</a>. When time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/" target="_blank">FantasyLiterature.com</a>). Recent graduate of Columbia, where I studied Mathematics-Statistics & Economics with some IR/politics.
 \t 
-\t To learn more about me, type <span class="special">social</span> to find me around the web, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
+\tCurrent side projects include: a free & open-access platform expanding high school/college students' access to policy debate (<a href="https://policydebate.org/" target="_blank">PolicyDebate.org</a>), a pending project to stop unfair enforcement of fare-skipping in the NYC MTA, and a pending project to expand LGBTQ+-inclusive sex education in NYC. Any of that sound interesting? See below on how to get in touch :)
+\t
+\t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
 var unformatted_intro = `Hey there! My name is <span class="special" >Kevin Wei</span>. I'm a <span class="special">political organizer</span>, <span class="special">activist</span>, and <span class="special">policy researcher</span> working on education equity, technology policy, LGBTQ+ equality, and other key issues. Proudly based in NYC!
 Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
@@ -56,7 +58,7 @@ var portfolio = `<a href="https://www.fcc.gov/ecfs/filing/10717079873938" target
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
-var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on
+var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on.
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
