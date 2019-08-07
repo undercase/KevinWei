@@ -9,7 +9,7 @@ cats: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `I'm a <span class="special">political organizer</span> and <span class="special">policy researcher</span> with a technical background. My main policy interests are economic inequality, technology regulation and innovation policy, and select microeconomics topics. Right now I'm an Associate at <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>, where I work on education equity and diversity. Check out <a href="https://www.digitalocean.com/the-spin-up/" target="_blank">the Spin Up</a>, DigitalOcean and a16z's new program to expand computer science education to historically underrepresented communities!
+var intro = `Right now I'm an Associate at <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>, where I'm scaling out our education access and startup programs. Check out <a href="https://www.digitalocean.com/the-spin-up/" target="_blank">the Spin Up</a>, DigitalOcean and a16z's new program to expand computer science education to historically underrepresented communities!
 \t 
 \tIn the past, I was a 2019 State of the Net Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a> and a 2018 Beto Senate campaign staffer. I've also worked/interned in the Office of Nancy Pelosi, the <a href="https://www.cfr.org/" target="_blank">Council of Foreign Relations</a>, the <a href="http://www.techstars.com/programs/" target="_blank">Techstars IoT Accelerator</a>, the <a href="https://www.georgewbushlibrary.smu.edu/" target="_blank">George W. Bush Presidential Library</a>, and the <a href="https://www.si.edu/" target="_blank">Smithsonian</a>. When time permits, I'm an avid Overwatch player (TeSPA) and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/" target="_blank">FantasyLiterature.com</a>). Recent graduate of Columbia, where I studied Mathematics-Statistics & Economics with some IR/politics.
 \t 
@@ -17,7 +17,7 @@ var intro = `I'm a <span class="special">political organizer</span> and <span cl
 \t
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
-var unformatted_intro = `Hey there! My name is <span class="special" >Kevin Wei</span>. I'm a <span class="special">political organizer</span>, <span class="special">activist</span>, and <span class="special">policy researcher</span> working on education equity, technology policy, LGBTQ+ equality, and other key issues. Proudly based in NYC!
+var unformatted_intro = `Hey there! My name is <span class="special" >Kevin Wei</span>. I'm a <span class="special">political organizer</span>, <span class="special">digital communications specialist</span>, <span class="special">activist</span>, <span class="special">policy researcher</span> with a technical/data background. I work on education equity, economic/racial equity, technology/cyber policy, LGBTQ+ rights, and other key issues. Currently an Associate at DigitalOcean and a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a>, proudly based in NYC!
 Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
 var help = [{
