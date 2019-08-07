@@ -17,7 +17,7 @@ var intro = `Right now I'm an Associate at <a href="https://digitalocean.com" ta
 \t
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
-var unformatted_intro = `Hey there! My name is <span class="special" >Kevin Wei</span>. I'm a <span class="special">political organizer</span>, <span class="special">digital communications specialist</span>, <span class="special">activist</span>, <span class="special">policy researcher</span> with a technical/data background. I work on education equity, economic/racial equity, technology/cyber policy, LGBTQ+ rights, and other key issues. Currently an Associate at DigitalOcean and a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a>, proudly based in NYC!
+var unformatted_intro = `Hey there! My name is <span class="special" >Kevin Wei</span>. I'm a <span class="special">political organizer</span>, <span class="special">digital communications specialist</span>, and <span class="special">activist</span>, <span class="special">policy researcher</span> with a technical/data background. I work on education equity, economic/racial equity, technology/cyber policy, LGBTQ+ rights, and other key issues. Currently an Associate at <a href="https://digitalocean.com" target="_blank">DigitalOcean</a> and a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a>, proudly based in NYC!
 Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
 var help = [{
