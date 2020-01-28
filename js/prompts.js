@@ -43,9 +43,8 @@ var help = [{
   description: "Clear the screen"
 }];
 
-var social = `<a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">LinkedIn</a>
-\t<a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a>
-\t<a href="https://angel.co/kevinwei" target="_blank">AngelList</a>
+var social = `<a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a>
+\t<a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">LinkedIn</a>
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
